@@ -1,0 +1,13 @@
+<!--﻿
+
+The text in this file does not appear anywhere in the addon. This will be used on extension's localized page.
+You are not required to translate this file but it may help others.
+
+-->
+<!--
+Ermöglicht das Ändern der Größe des 'Lesezeichen hinzufügen'-/'Lesezeichen bearbeiten'-Dialogs, behebt Fehler bei Auswahl in Baumstruktur, besitzt Einstellung, um automatisches Schließen des Dialogs zu verhindern und Adresse und/oder Name eines Lesezeichens mit den Werten der derzeitigen Seiten zu ersetzen.
+
+Ersatz für das OpenBook-Add-on.
+
+
+-->

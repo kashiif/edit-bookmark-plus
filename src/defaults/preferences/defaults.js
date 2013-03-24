@@ -1,0 +1,15 @@
+pref('extensions.editbookmarkplus.autoExpandTree', true);
+pref('extensions.editbookmarkplus.showLocation', true);
+pref('extensions.editbookmarkplus.showDescription', true);
+pref('extensions.editbookmarkplus.showKeyword', true);
+pref('extensions.editbookmarkplus.updateTitleOnToolbar', true);
+pref('extensions.editbookmarkplus.updateTitleOnMenu', true);
+pref('extensions.editbookmarkplus.updateTitleOnSidebar', true);
+pref('extensions.editbookmarkplus.updateUrlOnToolbar', true);
+pref('extensions.editbookmarkplus.updateUrlOnMenu', true);
+pref('extensions.editbookmarkplus.updateUrlOnSidebar', true);
+pref('extensions.editbookmarkplus.popupWidth', -1);
+pref('extensions.editbookmarkplus.popupHeight', -1);
+pref('extensions.editbookmarkplus.version', '');
+pref('extensions.editbookmarkplus.noAutoHidePanel', true);
+pref('extensions.editbookmarkplus.popupshowndelay', 200);

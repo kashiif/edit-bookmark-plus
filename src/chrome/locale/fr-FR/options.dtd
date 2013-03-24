@@ -1,0 +1,10 @@
+<!ENTITY editbookmarkplus.options.windowtitle "Modifier les options de Bookmark Plus">
+<!ENTITY editbookmarkplus.options.noautohidepanellabel "Seuls les boutons Annuler, Fait ou Supprimer fermeront la fenêtre popup.">
+<!ENTITY editbookmarkplus.options.showlocationlabel "Afficher l'emplacement dans la fenêtre popup">
+<!ENTITY editbookmarkplus.options.showdescriptionlabel "Afficher la description dans le popup">
+<!ENTITY editbookmarkplus.options.showkeywordlabel "Afficher le mot-clé dans le popup">
+<!ENTITY editbookmarkplus.options.updateurllabel "Afficher la mise à jour de l'URL">
+<!ENTITY editbookmarkplus.options.updatenamelabel "Afficher la mise à jour du titre">
+<!ENTITY editbookmarkplus.options.toolbarlabel "Barre d'outils">
+<!ENTITY editbookmarkplus.options.bookmarksmenulabel "Menu des marque-pages">
+<!ENTITY editbookmarkplus.options.sidebarlabel "Barre latérale">

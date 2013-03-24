@@ -1,0 +1,66 @@
+<!--
+
+The text in this file does not appear anywhere in the addon. This will be used on extension's localized page. You are not required to translate this file but it may help others.
+
+Following are the available locales on MDN:
+
+Afrikaans · af
+عربي · ar
+Български · bg
+català · ca
+Čeština · cs
+Dansk · da
+Deutsch · de
+Ελληνικά · el
+Español · es
+Euskara · eu
+فارسی · fa
+suomi · fi
+Français · fr
+Gaeilge (Éire) · ga-ie
+עברית · he
+magyar · hu
+Bahasa Indonesia · id
+Italiano · it
+日本語 · ja
+한국어 · ko
+Монгол · mn
+Nederlands · nl
+Polski · pl
+Português (do Brasil) · pt-br
+Português (Europeu) · pt-pt
+română · ro
+Русский · ru
+slovenčina · sk
+Slovenščina · sl
+Shqip · sq
+Svenska · sv-se
+Українська · uk
+Tiếng Việt · vi
+中文 (简体) · zh-cn
+正體中文 (繁體) · zh-tw
+
+
+-->
+<!--
+
+<ol>
+<li><b>调整书签弹出框尺寸</b>：默认情况下，点击地址栏黄色星形图标出现的弹出框的尺寸是固定的。本附加组件使它可调整尺寸，展开书签树也会占用剩余的空间。你可以按自己的需要调整弹出框尺寸：
+
+<li><b>总是显示选中的文件夹</b>：某些时候在书签下拉列表中选中文件夹后，书签树不会滚动到文件夹的位置。本附加组件可以修复此问题：
+
+<li><b>提供禁用弹出框自动隐藏的选项</b>：添加/编辑书签弹出框会在你点击页面其它地方时自动关闭。这使得从网页复制/粘贴文本到弹出框文本域的操作变得困难。此行为可以在本附加组件选项对话中被禁用。
+
+<li><b>提供显示/隐藏额外域的选项</b>：你可以自定义是否在弹出框中显示描述、位置和关键词等域。
+
+<li><b>轻松更新书签的名称和/或 URL</b>：在书签工具栏、书签菜单和书签侧边栏的上下文菜单中添加“更新 URL”和“更新名称”菜单项。两种菜单项都可以在 Edit Bookmark Plus 选项对话中关闭。
+
+<b>更新 URL</b>：用当前页的 URL 更新选定书签的 URL。
+
+<b>更新名称</b>：用当前页的标题更新选定书签的名称(在用户界面上显示的文本)。
+
+</ol>
+
+
+
+-->

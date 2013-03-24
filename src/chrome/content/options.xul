@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://edit-bookmark-plus/locale/options.dtd">
+<prefwindow id="EditbookmarkPlusPreferences"
+        title="&editbookmarkplus.options.windowtitle;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+  <prefpane>
+    <preferences>
+      <preference id="noAutoHidePanel.pref" name="extensions.editbookmarkplus.noAutoHidePanel" type="bool" />
+      <preference id="showLocationOnPopup.pref"	name="extensions.editbookmarkplus.showLocation" type="bool" />
+      <preference id="showDescriptionOnPopup.pref"	name="extensions.editbookmarkplus.showDescription" type="bool" />
+      <preference id="showKeywordOnPopup.pref"	name="extensions.editbookmarkplus.showKeyword" type="bool" />
+      <preference id="updateNameOnToolbar.pref"	name="extensions.editbookmarkplus.updateTitleOnToolbar" type="bool" />
+      <preference id="updateNameOnMenu.pref"	name="extensions.editbookmarkplus.updateTitleOnMenu" type="bool" />
+      <preference id="updateNameOnSidebar.pref"	name="extensions.editbookmarkplus.updateTitleOnSidebar" type="bool" />
+      <preference id="updateUrlOnToolbar.pref"	name="extensions.editbookmarkplus.updateUrlOnToolbar" type="bool" />
+      <preference id="updateUrlOnMenu.pref"		name="extensions.editbookmarkplus.updateUrlOnMenu" type="bool" />
+      <preference id="updateUrlOnSidebar.pref"	name="extensions.editbookmarkplus.updateUrlOnSidebar" type="bool" />
+    </preferences>
+    <groupbox>
+        <separator />
+        <checkbox id="chkNoAutoHidePanel"   preference="noAutoHidePanel.pref" label="&editbookmarkplus.options.noautohidepanellabel;" />
+		<separator />
+		<checkbox id="chkShowLocationOnPopup"	preference="showLocationOnPopup.pref" label="&editbookmarkplus.options.showlocationlabel;" />
+		<separator />
+		<checkbox id="chkShowDescriptionOnPopup"	preference="showDescriptionOnPopup.pref" label="&editbookmarkplus.options.showdescriptionlabel;" />
+		<separator />
+		<checkbox id="chkShowKeywordOnPopup"	preference="showKeywordOnPopup.pref" label="&editbookmarkplus.options.showkeywordlabel;" />
+		<separator />
+		<groupbox>
+			<caption label="&editbookmarkplus.options.updatenamelabel;" />
+			<checkbox id="chkUpdateNameOnToolbar"	preference="updateNameOnToolbar.pref" label="&editbookmarkplus.options.toolbarlabel;" />
+			<checkbox id="chkUpdateNameOnMenu"		preference="updateNameOnMenu.pref" label="&editbookmarkplus.options.bookmarksmenulabel;" />
+			<checkbox id="chkUpdateNameOnSidebar"	preference="updateNameOnSidebar.pref" label="&editbookmarkplus.options.sidebarlabel;" />
+		</groupbox>
+		<separator />
+		<groupbox>
+			<caption label="&editbookmarkplus.options.updateurllabel;" />
+			<checkbox id="chkUpdateUrlOnToolbar"	preference="updateUrlOnToolbar.pref" label="&editbookmarkplus.options.toolbarlabel;" />
+			<checkbox id="chkUpdateUrlOnMenu"		preference="updateUrlOnMenu.pref" label="&editbookmarkplus.options.bookmarksmenulabel;" />
+			<checkbox id="chkUpdateUrlOnSidebar"	preference="updateUrlOnSidebar.pref" label="&editbookmarkplus.options.sidebarlabel;" />
+		</groupbox>   
+	</groupbox>   
+  </prefpane>
+</prefwindow>

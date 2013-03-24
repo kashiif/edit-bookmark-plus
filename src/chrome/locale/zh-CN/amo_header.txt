@@ -1,0 +1,13 @@
+<!--
+
+The text in this file does not appear anywhere in the addon. This will be used on extension's localized page.
+You are not required to translate this file but it may help others.
+
+-->
+<!--
+调整“添加书签”/“编辑书签”弹出框的尺寸，修复书签树选择 bug，提供禁用弹出框自动关闭 & 用当前页的 URL/标题更新书签的 URL 和/或名称的选项 。
+
+它可以替代 OpenBook 附加组件的功能。
+
+
+-->

@@ -1,0 +1,1 @@
+1. Added ability to show/hide description / keyword fields, not done, pref and code implemented but UI not done

@@ -1,0 +1,66 @@
+<!--﻿
+
+The text in this file does not appear anywhere in the addon. This will be used on extension's localized page. You are not required to translate this file but it may help others.
+
+Following are the available locales on MDN:
+
+Afrikaans · af
+عربي · ar
+Български · bg
+català · ca
+Čeština · cs
+Dansk · da
+Deutsch · de
+Ελληνικά · el
+Español · es
+Euskara · eu
+فارسی · fa
+suomi · fi
+Français · fr
+Gaeilge (Éire) · ga-ie
+עברית · he
+magyar · hu
+Bahasa Indonesia · id
+Italiano · it
+日本語 · ja
+한국어 · ko
+Монгол · mn
+Nederlands · nl
+Polski · pl
+Português (do Brasil) · pt-br
+Português (Europeu) · pt-pt
+română · ro
+Русский · ru
+slovenčina · sk
+Slovenščina · sl
+Shqip · sq
+Svenska · sv-se
+Українська · uk
+Tiếng Việt · vi
+中文 (简体) · zh-cn
+正體中文 (繁體) · zh-tw
+
+
+-->
+<!--
+
+<ol>
+<li><b>Größe des Lesezeichen-Dialogs ändern</b>: Standardmäßig erscheint der Dialog nach dem Klicken auf den gelben Stern in der Adressleiste mit unveränderlicher Größe. Dieses Add-on macht seine Größe veränderbar und erweitert die Baumstruktur der Lesezeichen so, dass verbleibender Platz gefüllt wird. Sie können die Größe des Pop-ups nach Ihren Wünschen anpassen.
+
+<li><b>Immer den gewählten Ordner anzeigen</b>: Manchmal zeigt die Baumstruktur der Lesezeichenordner nicht den derzeit gewählten Ordner an. Dieses Problem wird durch das Add-on behoben.
+
+<li><b>Einstellungen zum Deaktivieren des automatischen Schließens des Pop-ups</b>: Der Dialog 'Lesezeichen hinzufügen'/'Lesezeichen bearbeiten' schließt sich automatisch, sobald irgendwo auf die Seite geklickt wird. Dies erschwert das Kopieren und Einfügen von Text von der Webseite in eins der Formularfelder. Dieses Verhalten kann in den Einstellungen des Add-ons deaktiviert werden.
+
+<li><b>Einstellung zum Anzeigen/Ausblenden von Formularfeldern</b>: Sie können festlegen, ob die Felder für Beschreibung, Adresse und Schlagwort im Pop-up angezeigt werden sollen.
+
+<li><b>Einfaches Ersetzen von Name und/oder Adresse eines Lesezeichens</b>: Fügt 'Adresse ersetzen'- und 'Namen ersetzen'-Menüeinträge zum Kontextmenü von Lesezeichen-Symbolleiste, -Menü und -Sidebar hinzu. Beide Menüeinträge können in den Einstellungen von Edit Bookmark Plus deaktiviert werden.
+
+<b>Adresse ersetzen</b>: Ersetzt die Adresse des gewählten Lesezeichens mit jener der derzeit geöffneten Seite.
+
+<b>Namen ersetzen</b>: Ersetzt den Namen des Lesezeichens (dafür angezeigter Text in der Programmoberfläche) mit jenem der derzeit geöffneten Seite.
+
+</ol>
+
+
+
+-->

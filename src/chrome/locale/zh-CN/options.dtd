@@ -1,0 +1,10 @@
+<!ENTITY editbookmarkplus.options.windowtitle "Edit Bookmark Plus 选项">
+<!ENTITY editbookmarkplus.options.noautohidepanellabel "只使用取消、完成和移除书签按钮关闭弹出框。">
+<!ENTITY editbookmarkplus.options.showlocationlabel "在弹出框中显示地址">
+<!ENTITY editbookmarkplus.options.showdescriptionlabel "在弹出框中显示描述">
+<!ENTITY editbookmarkplus.options.showkeywordlabel "在弹出框中显示关键字">
+<!ENTITY editbookmarkplus.options.updateurllabel "显示更新 URL">
+<!ENTITY editbookmarkplus.options.updatenamelabel "显示更新名称">
+<!ENTITY editbookmarkplus.options.toolbarlabel "工具栏">
+<!ENTITY editbookmarkplus.options.bookmarksmenulabel "书签菜单">
+<!ENTITY editbookmarkplus.options.sidebarlabel "侧边栏">

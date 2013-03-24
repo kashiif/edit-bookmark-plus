@@ -1,0 +1,61 @@
+﻿The text in this file does not appear anywhere in the addon. This will be used on extension's localized page. You are not required to translate this file but it may help others.
+
+Following are the available locales on MDN:
+
+Afrikaans · af
+عربي · ar
+Български · bg
+català · ca
+Čeština · cs
+Dansk · da
+Deutsch · de
+Ελληνικά · el
+Español · es
+Euskara · eu
+فارسی · fa
+suomi · fi
+Français · fr
+Gaeilge (Éire) · ga-ie
+עברית · he
+magyar · hu
+Bahasa Indonesia · id
+Italiano · it
+日本語 · ja
+한국어 · ko
+Монгол · mn
+Nederlands · nl
+Polski · pl
+Português (do Brasil) · pt-br
+Português (Europeu) · pt-pt
+română · ro
+Русский · ru
+slovenčina · sk
+Slovenščina · sl
+Shqip · sq
+Svenska · sv-se
+Українська · uk
+Tiếng Việt · vi
+中文 (简体) · zh-cn
+正體中文 (繁體) · zh-tw
+
+---------- Translate text below this line ----------
+
+<ol>
+<li><b>Re-size Bookmark Popup</b>: By default, the popup that appears when you click on yellow star in the address bar, is fixed size. This add-on makes it re-sizable and expands bookmarks tree to take remaining space. You can resize the popup to a size of your own choice.
+
+<li><b>Always Show the Selected Folder</b>: Sometimes the bookmarks tree does not scroll to the folder which is selected from Folder drop down list. This issue is fixed by this add-on.
+
+<li><b>Option to Disable Popup Autohide</b>: Add/Edit bookmark closes automatically as soon as you clicked anywhere on the page. This makes it harder to copy/paste text from web page to any field of popup. This behavior can be disabled from the options dialog of the addon.
+
+<li><b>Option to Show/Hide Extra Fields</b>: You can customize whether to show description, location and keywords fields on popup or not.
+
+<li><b>Update Name and/or url of a bookmark easily</b>: Adds 'Update Url' and 'Update Name' menu items in the context menu of bookmarks toolbar, bookmarks menu, bookmarks sidebar. Both of the menu items can be turned off by Edit Bookmark Plus options dialog.
+
+<b>Update Url</b>: Updates the url of selected bookmark with the url of current page.
+
+<b>Update Name</b>: Updates the name (the text that shows up on UI) of selected bookmark with the title of current page.
+
+</ol>
+
+
+

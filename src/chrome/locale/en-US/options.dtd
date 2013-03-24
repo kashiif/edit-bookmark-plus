@@ -1,0 +1,10 @@
+<!ENTITY editbookmarkplus.options.windowtitle	"Edit Bookmark Plus Options">
+<!ENTITY editbookmarkplus.options.noautohidepanellabel "Only Cancel,Done or Remove Bookmark button close the popup.">
+<!ENTITY editbookmarkplus.options.showlocationlabel	"Show Location On Popup">
+<!ENTITY editbookmarkplus.options.showdescriptionlabel	"Show Description On Popup">
+<!ENTITY editbookmarkplus.options.showkeywordlabel	"Show Keyword On Popup">
+<!ENTITY editbookmarkplus.options.updateurllabel	"Show Update Url">
+<!ENTITY editbookmarkplus.options.updatenamelabel	"Show Update Name">
+<!ENTITY editbookmarkplus.options.toolbarlabel	"Toolbar">
+<!ENTITY editbookmarkplus.options.bookmarksmenulabel	"Bookmarks Menu">
+<!ENTITY editbookmarkplus.options.sidebarlabel	"Sidebar">

@@ -1,0 +1,18 @@
+
+
+<ol>
+<li><b>Redimensionner le popup des marque-pages </b>: par défaut, la fenêtre popup qui apparaît quand vous cliquez sur l'étoile jaune dans la barre d'adresse est de taille fixe. Avec cette extension, vous pourrez la redimensionner et étendre l'arborescence des marque-pages en ayant plus d'espace. C'est vous qui décidez de la taille de votre popup.
+
+<li><b>Toujours afficher le répertoire choisi </b>: parfois l'arborescence des marque-pages ne se déploie pas jusqu'au dossier sélectionné dans le menu déroulant. Ce problème est réglé avec cette extension.
+
+<li><b>Option pour désactiver le masquage automatique du popup</b> : ajouter/modifier un marque-page ferme automatiquement le popup dès que vous cliquez à un autre endroit de la page. Ce qui rend difficile de copier/coller un texte de la page web vers un champ de saisie du popup. Ce comportement peut être désactivé dans le choix des options de l'extension.
+
+<li><b>Option pour afficher/masquer des champs supplémentaires</b> : Vous pouvez personnaliser l'affichage pour que soient accessibles ou non les champs pour la description, l'emplacement et les mots-clés.
+
+<li><b>Mettre à jour facilement l'adresse et/ou le titre d'un marque-page</b> : l'extension ajoute des entrées de menu 'Mettre à jour l'URL' et 'Mettre à jour le titre' dans le menu contextuel de la barre des marque-pages, et dans la barre latérale des marque-pages. les deux entrées de menu peuvent être désactivées dans les options de Edit Bookmark Plus.
+
+<b>Mettre à jour l'Url</b> : met à jour l'URL du marque-page sélectionné avec l'URL de la page courante.
+
+<b>Mettre à jour le titre</b> : met à jour le titre du marque-page sélectionné avec le titre de la page courante.
+
+</ol>

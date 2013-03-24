@@ -1,0 +1,11 @@
+﻿The text in this file does not appear anywhere in the addon. This will be used on extension's localized page.
+You are not required to translate this file but it may help others.
+
+
+------- Translate text below this line -------
+
+Resize 'Add Bookmark' Popup / 'Edit This Bookmark' Popup, fixes tree selection bug, option to disable popup auto close & Update Url and/or Name of a bookmark with the Url/Title of current page.
+
+Replacement of OpenBook addon.
+
+

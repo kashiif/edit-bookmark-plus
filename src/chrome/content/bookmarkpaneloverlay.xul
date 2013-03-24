@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://edit-bookmark-plus/locale/editbookmarkplus.dtd">
+
+<overlay id="edit-bookmark-plus-editBookmarkPanelOverlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+		<hbox id="editBookmarkPanelBottomButtons">
+			<hbox id="hboxEditBookmarkPlus" flex="1" align="left" insertbefore="editBookmarkPanelDoneButton">
+				<resizer id="resizerEditBookmarkPlus" dir="bottomleft" element="editBookmarkPanelContent" style="cursor: sw-resize;" height="20px" width="20px"/>
+			</hbox>
+		</hbox>
+	
+    <script type="application/x-javascript" src="chrome://edit-bookmark-plus/content/editbookmarkplus.js" />
+	
+</overlay>

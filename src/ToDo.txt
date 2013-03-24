@@ -1,0 +1,7 @@
+1 - Give an option to hide 'New Folder button'
+2 - Or place it on the left hand side
+3 - Allow renaming of folders
+4 - Allow custom number of recent items
+5 - Bookmark Current Tab Set
+6. UnSorted Bookmarks folder
+7. allow pinned items for drop down for fast navigation

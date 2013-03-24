@@ -1,0 +1,17 @@
+content edit-bookmark-plus chrome/content/
+
+skin	edit-bookmark-plus	edit-bookmark-plus-skin	chrome/skin/
+
+locale	edit-bookmark-plus	en-US	chrome/locale/en-US/
+locale	edit-bookmark-plus	zh-CN	chrome/locale/en-US/
+locale	edit-bookmark-plus	de	  chrome/locale/de/
+locale	edit-bookmark-plus	fr-FR	chrome/locale/fr-FR/
+
+overlay	chrome://navigator/content/navigator.xul	chrome://edit-bookmark-plus/content/bookmarkpaneloverlay.xul
+overlay	chrome://communicator/content/bookmarks/bm-props2.xul	chrome://edit-bookmark-plus/content/bm-props2-overlay.xul
+overlay	chrome://communicator/content/bookmarks/bm-panel.xul	chrome://edit-bookmark-plus/content/sidebar.xul
+
+
+overlay chrome://browser/content/browser.xul	chrome://edit-bookmark-plus/content/bookmarkpaneloverlay.xul
+overlay chrome://browser/content/places/bookmarkProperties2.xul	chrome://edit-bookmark-plus/content/bm-props2-overlay.xul
+overlay chrome://browser/content/bookmarks/bookmarksPanel.xul chrome://edit-bookmark-plus/content/sidebar.xul

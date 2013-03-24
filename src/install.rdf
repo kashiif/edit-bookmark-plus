@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>edit-bookmark-plus@kashiif-gmail.com</em:id>
+    <em:type>2</em:type>
+    <em:name>Edit Bookmark Plus</em:name>
+    <em:version>__version__</em:version>
+    <em:creator>Kashif Iqbal Khan</em:creator>
+
+    <em:translator>Wang.H.K (Chinese Simplified)</em:translator>
+    <em:translator>Goofy (French)</em:translator>
+
+
+    <em:homepageURL>http://www.kashiif.com/firefox-extensions/edit-bookmark-plus/</em:homepageURL>
+    <em:description>
+	Allows to re-size the default 'Add/Edit Bookmark Popup' and fixes tree selection bug.</em:description>
+    <em:optionsURL>chrome://edit-bookmark-plus/content/options.xul</em:optionsURL>
+    <em:iconURL>chrome://edit-bookmark-plus/skin/ebmp-icon.png</em:iconURL>
+    <em:icon64URL>chrome://edit-bookmark-plus/skin/ebmp-icon64.png</em:icon64URL>
+	
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id><!-- Firefox -->
+        <em:minVersion>6.0</em:minVersion>
+        <em:maxVersion>21.0a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id><!-- SeaMonkey -->
+        <em:minVersion>2.1</em:minVersion>
+        <em:maxVersion>2.18a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>
