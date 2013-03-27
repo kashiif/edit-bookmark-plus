@@ -1,0 +1,33 @@
+{
+  "name": "edit-bookmark-plus",
+  "title": "Edit Bookmark Plus",
+  "description": "",
+  "version": "2.1.0",
+  "homepage": "http://www.kashiif.com/firefox-extensions/edit-bookmark-plus/",
+  "author": {
+    "name": "Kashif Iqbal Khan",
+    "email": "kashiif@gmail.com",
+    "url": "www.kashiif.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashiif/edit-bookmark-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kashiif/edit-bookmark-plus/issues"
+  },
+  "licenses": [
+    {
+      "type": "none",
+      "url": "/blob/master/LICENSE-none"
+    }
+  ],
+  "dependencies": {},
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-copy": ">=0.4.0",
+    "grunt-string-replace": "~0.2.3",
+    "grunt-contrib-compress": "~0.4.6",
+    "grunt-bump": "0.0.2"
+  }
+}
