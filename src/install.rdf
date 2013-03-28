@@ -11,9 +11,8 @@
     <em:translator>Goofy (French)</em:translator>
 
 
-    <em:homepageURL>http://www.kashiif.com/firefox-extensions/edit-bookmark-plus/</em:homepageURL>
-    <em:description>
-	Allows to re-size the default 'Add/Edit Bookmark Popup' and fixes tree selection bug.</em:description>
+    <em:homepageURL></em:homepageURL>
+    <em:description></em:description>
     <em:optionsURL>chrome://edit-bookmark-plus/content/options.xul</em:optionsURL>
     <em:iconURL>chrome://edit-bookmark-plus/skin/ebmp-icon.png</em:iconURL>
     <em:icon64URL>chrome://edit-bookmark-plus/skin/ebmp-icon64.png</em:icon64URL>

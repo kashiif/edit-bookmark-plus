@@ -1,8 +1,8 @@
 {
   "name": "edit-bookmark-plus",
   "title": "Edit Bookmark Plus",
-  "description": "",
-  "version": "2.1.0",
+  "description": "Allows to re-size the default 'Add/Edit Bookmark Popup' and fixes tree selection bug.",
+  "version": "2.3.0",
   "homepage": "http://www.kashiif.com/firefox-extensions/edit-bookmark-plus/",
   "author": {
     "name": "Kashif Iqbal Khan",
@@ -19,15 +19,16 @@
   "licenses": [
     {
       "type": "none",
-      "url": "/blob/master/LICENSE-none"
+      "url": "/blob/master/LICENSE"
     }
   ],
   "dependencies": {},
   "keywords": [],
   "devDependencies": {
+    "grunt": "0.4.1",
     "grunt-contrib-copy": ">=0.4.0",
     "grunt-string-replace": "~0.2.3",
-    "grunt-contrib-compress": "~0.4.6",
+    "grunt-contrib-compress": "0.4.1",
     "grunt-bump": "0.0.2"
   }
 }
