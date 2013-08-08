@@ -13,7 +13,7 @@ Edit Bookmark Plus is an extension for Firefox. To know more, see [extension's p
 2. Install GruntJS by typing the following command:
 
 ```
-npm install -g grunt
+npm install -g grunt-cli
 ```
 
 3. Run the following command in the repository root directory to install all the required grunt plugins: 
