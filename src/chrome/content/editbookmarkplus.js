@@ -92,11 +92,15 @@ var editBookmarkPlus = {
 	},
 	
 	_welcome: function(version) {
-		try {
+	/*
+			try {
 			var url = 'http://www.kashiif.com/firefox-extensions/edit-bookmark-plus/edit-bookmark-plus-welcome/?v='+version;
 			openUILinkIn( url, 'tab');
 		} 
 		catch(e) {}
+
+	*/
+
 	},
 	
 	handlePopupLoad: function(evt) {		
