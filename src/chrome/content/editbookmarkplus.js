@@ -31,20 +31,34 @@ var editBookmarkPlus = {
 
 			// Set a wrapper to original function that will hide/show location/description fields
 			gEditItemOverlay.initPanel = function(aFor, aInfo) {
-					var fieldsToShow = [];
-					if (editBookmarkPlus.prefService.getBoolPref('showLocation'))
-						fieldsToShow.push('location');
-					if (editBookmarkPlus.prefService.getBoolPref('showDescription'))
-						fieldsToShow.push('description');
-					if (editBookmarkPlus.prefService.getBoolPref('showKeyword'))
-						fieldsToShow.push('keyword');
 
-					for each(var field in fieldsToShow) {
-						var index = aInfo.hiddenRows.indexOf(field);
-						if (index !== -1) {
-						    aInfo.hiddenRows.splice(index, 1);
-						}						
+					var hiddenRows = null;
+
+					if (aInfo && aInfo.hasOwnProperty('hiddenRows')) {
+						hiddenRows = aInfo.hiddenRows;
 					}
+					else if (aFor && aFor.hasOwnProperty('hiddenRows')) {
+						hiddenRows = aFor.hiddenRows;
+					}
+
+
+					if (hiddenRows) {
+						var fieldsToShow = [];
+						if (editBookmarkPlus.prefService.getBoolPref('showLocation'))
+							fieldsToShow.push('location');
+						if (editBookmarkPlus.prefService.getBoolPref('showDescription'))
+							fieldsToShow.push('description');
+						if (editBookmarkPlus.prefService.getBoolPref('showKeyword'))
+							fieldsToShow.push('keyword');
+
+						for each(var field in fieldsToShow) {
+							var index = hiddenRows.indexOf(field);
+							if (index !== -1) {
+							    hiddenRows.splice(index, 1);
+							}
+						}
+					}
+
 					gEditItemOverlay.initPanel2(aFor, aInfo);
 				}
 
@@ -119,7 +133,7 @@ var editBookmarkPlus = {
 			parent.insertBefore(p, parent.children.item(0));
 			
 			p =  document.getElementById('editBookmarkPanel');
-			p.removeEventListener('load', this.handlePopupLoad, false);
+			p.removeEventListener('load', editBookmarkPlus.handlePopupLoad, false);
 			editBookmarkPlus.__setNoAutoHide(p);
 
 			var resizer = document.getElementById('resizerEditBookmarkPlus');
