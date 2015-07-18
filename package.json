@@ -2,7 +2,7 @@
   "name": "edit-bookmark-plus",
   "title": "Edit Bookmark Plus",
   "description": "Allows to re-size the default 'Add/Edit Bookmark Popup' and fixes tree selection bug.",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "homepage": "https://addons.mozilla.org/firefox/addon/edit-bookmark-plus/",
   "author": {
     "name": "Kashif Iqbal Khan",
