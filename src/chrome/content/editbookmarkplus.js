@@ -180,14 +180,16 @@ var editBookmarkPlus = {
 
 	_processShown: function(evt) {
 
-		var folderTreeRow = document.getElementById('editBMPanel_folderTreeRow');	
+		var folderTreeRow = document.getElementById('editBMPanel_folderTreeRow'),
+				btnExpandFolder, txtBookmarkName;	
 		folderTreeRow.flex=10;
 		folderTreeRow.align='';
 
 
+
 		var prefService = editBookmarkPlus.prefService;
 		if (prefService.getBoolPref('autoExpandTree')) {
-			var btnExpandFolder = document.getElementById('editBMPanel_foldersExpander');
+			btnExpandFolder = document.getElementById('editBMPanel_foldersExpander');
 			if (btnExpandFolder.className == 'expander-down') {
 				btnExpandFolder.click();
 				// Since click event handler is added AFTER popupshown event, 
@@ -196,7 +198,13 @@ var editBookmarkPlus = {
 				if (this.isShownFirstTime) {
 					this.handleExpandFolderButtonClick(null);
 					this.isShownFirstTime = false;
-				}	
+				}
+
+				// clicking the button moves focus from name textbox, move the focus back
+				txtBookmarkName = document.getElementById('editBMPanel_namePicker');
+				txtBookmarkName.focus();
+				txtBookmarkName.select();
+
 			}
 		}
 
