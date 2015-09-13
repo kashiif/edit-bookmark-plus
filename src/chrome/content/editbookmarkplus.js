@@ -173,22 +173,29 @@ var editBookmarkPlus = {
 	},
 	
 	handlePopupHidden: function(evt) {
-		var target = document.getElementById('editBookmarkPanelContent');
-		editBookmarkPlus.prefService.setIntPref('popupWidth', target.width);
-		editBookmarkPlus.prefService.setIntPref('popupHeight', target.height);
+		var target = document.getElementById('editBookmarkPanelContent'),
+				prefService = editBookmarkPlus.prefService,
+				prefAutoExpandTree = prefService.getBoolPref('autoExpandTree');	
+
+		prefService.setIntPref('popupWidth', target.width);
+
+		if (prefAutoExpandTree) {
+			// Only save height if tree was 
+			prefService.setIntPref('popupHeight', target.height);
+		}
 	},
 
 	_processShown: function(evt) {
 
 		var folderTreeRow = document.getElementById('editBMPanel_folderTreeRow'),
-				btnExpandFolder, txtBookmarkName;	
+				btnExpandFolder, txtBookmarkName,
+				prefService = editBookmarkPlus.prefService,
+				prefAutoExpandTree = prefService.getBoolPref('autoExpandTree');	
+
 		folderTreeRow.flex=10;
 		folderTreeRow.align='';
 
-
-
-		var prefService = editBookmarkPlus.prefService;
-		if (prefService.getBoolPref('autoExpandTree')) {
+		if (prefAutoExpandTree) {
 			btnExpandFolder = document.getElementById('editBMPanel_foldersExpander');
 			if (btnExpandFolder.className == 'expander-down') {
 				btnExpandFolder.click();
@@ -221,9 +228,12 @@ var editBookmarkPlus = {
 				p.width = t;
 			}
 
-			t = editBookmarkPlus.prefService.getIntPref('popupHeight');
-			if (t>0) {
-				p.height = t;
+			if (autoExpandTree) {
+				// Only restore height if the tree is auto expanded
+				t = editBookmarkPlus.prefService.getIntPref('popupHeight');
+				if (t>0) {
+					p.height = t;
+				}
 			}
 
 		}

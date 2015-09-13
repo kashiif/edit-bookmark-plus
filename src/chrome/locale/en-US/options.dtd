@@ -3,6 +3,7 @@
 <!ENTITY editbookmarkplus.options.showlocationlabel	"Show Location On Popup">
 <!ENTITY editbookmarkplus.options.showdescriptionlabel	"Show Description On Popup">
 <!ENTITY editbookmarkplus.options.showkeywordlabel	"Show Keyword On Popup">
+<!ENTITY editbookmarkplus.options.autoexpandtreelabel  "Expand Tree To Show All Bookmarks">
 <!ENTITY editbookmarkplus.options.updateurllabel	"Show Update Url">
 <!ENTITY editbookmarkplus.options.updatenamelabel	"Show Update Name">
 <!ENTITY editbookmarkplus.options.toolbarlabel	"Toolbar">

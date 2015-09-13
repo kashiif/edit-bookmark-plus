@@ -12,6 +12,7 @@
       <preference id="showLocationOnPopup.pref"	name="extensions.editbookmarkplus.showLocation" type="bool" />
       <preference id="showDescriptionOnPopup.pref"	name="extensions.editbookmarkplus.showDescription" type="bool" />
       <preference id="showKeywordOnPopup.pref"	name="extensions.editbookmarkplus.showKeyword" type="bool" />
+      <preference id="autoExpandTree.pref"  name="extensions.editbookmarkplus.autoExpandTree" type="bool" />
       <preference id="updateNameOnToolbar.pref"	name="extensions.editbookmarkplus.updateTitleOnToolbar" type="bool" />
       <preference id="updateNameOnMenu.pref"	name="extensions.editbookmarkplus.updateTitleOnMenu" type="bool" />
       <preference id="updateNameOnSidebar.pref"	name="extensions.editbookmarkplus.updateTitleOnSidebar" type="bool" />
@@ -29,6 +30,8 @@
 		<separator />
 		<checkbox id="chkShowKeywordOnPopup"	preference="showKeywordOnPopup.pref" label="&editbookmarkplus.options.showkeywordlabel;" />
 		<separator />
+    <checkbox id="chkAutoExpandTree"  preference="autoExpandTree.pref" label="&editbookmarkplus.options.autoexpandtreelabel;" />
+    <separator />
 		<groupbox>
 			<caption label="&editbookmarkplus.options.updatenamelabel;" />
 			<checkbox id="chkUpdateNameOnToolbar"	preference="updateNameOnToolbar.pref" label="&editbookmarkplus.options.toolbarlabel;" />
