@@ -1,4 +1,5 @@
 pref('extensions.editbookmarkplus.autoExpandTree', true);
+pref('extensions.editbookmarkplus.autoExpandTags', true);
 pref('extensions.editbookmarkplus.showLocation', true);
 pref('extensions.editbookmarkplus.showDescription', true);
 pref('extensions.editbookmarkplus.showKeyword', true);
