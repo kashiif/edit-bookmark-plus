@@ -228,7 +228,7 @@ var editBookmarkPlus = {
 				p.width = t;
 			}
 
-			if (autoExpandTree) {
+			if (prefAutoExpandTree) {
 				// Only restore height if the tree is auto expanded
 				t = editBookmarkPlus.prefService.getIntPref('popupHeight');
 				if (t>0) {
@@ -238,7 +238,7 @@ var editBookmarkPlus = {
 
 		}
 
-		p.style.minWidth = '30.75em'; // Corresponds to 492px for base Size=16pt
+		p.style.minWidth = '33.25em'; // Corresponds to 271px for base Size=16pt
 		p.flex = '1';
 
 	},
@@ -284,8 +284,9 @@ var editBookmarkPlus = {
 
 	_ensureSelectionVisible: function ()	{
 		var tree = document.getElementById('editBMPanel_folderTree');
-		
-		if (!tree.hidden) {
+
+		// on first load if tree is in collapsed state, tree.view is null 		
+		if (!tree.hidden && tree.view) {
 			var numRanges = tree.view.selection.getRangeCount();
 			if (numRanges > 0) {
 				var start = new Object();
