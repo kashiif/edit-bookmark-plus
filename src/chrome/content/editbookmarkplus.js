@@ -118,6 +118,15 @@ var editBookmarkPlus = {
 	},
 	
 	handlePopupLoad: function(evt) {		
+		var folderTreeRow = document.getElementById('editBMPanel_folderTreeRow');
+		folderTreeRow.flex=10;
+		folderTreeRow.align='';
+
+                var tagsSelectorRow = document.getElementById('editBMPanel_tagsSelectorRow');
+                tagsSelectorRow.flex=20;
+                tagsSelectorRow.height='';
+                tagsSelectorRow.align='';
+
 		var btnExpandFolder = document.getElementById('editBMPanel_foldersExpander');
 		btnExpandFolder.addEventListener('command', editBookmarkPlus.handleExpandFolderButtonClick, false);
 		
@@ -201,6 +210,19 @@ var editBookmarkPlus = {
 				btnExpandFolder.click();
 				// Since click event handler is added AFTER popupshown event, 
 				// hence scroll tree to show the selected row
+
+				if (this.isShownFirstTime) {
+					this.handleExpandFolderButtonClick(null);
+					this.isShownFirstTime = false;
+				}
+			}
+		}
+                if (prefService.getBoolPref('autoExpandTags')) {
+			var btnExpandFolder = document.getElementById('editBMPanel_tagsSelectorExpander');
+			if (btnExpandFolder.className == 'expander-down') {
+				btnExpandFolder.click();
+				// Since click event handler is added AFTER popupshown event,
+				// hence scroll tree to show the selected row
 				
 				if (this.isShownFirstTime) {
 					this.handleExpandFolderButtonClick(null);
@@ -240,13 +262,16 @@ var editBookmarkPlus = {
 
 		p.style.minWidth = '33.25em'; // Corresponds to 271px for base Size=16pt
 		p.flex = '1';
-
 	},
 
 	handleExpandFolderButtonClick: function(evt) {
-		var folderTreeRow = document.getElementById('editBMPanel_folderTreeRow');
+                var tagsSelectorRow = document.getElementById('editBMPanel_tagsSelectorRow');
+                tagsSelectorRow.flex=20;
+                tagsSelectorRow.height='';
+
+                var folderTreeRow = document.getElementById('editBMPanel_folderTreeRow');
 		var p =  document.getElementById('editBookmarkPanel');
-		
+
 		if (folderTreeRow.collapsed) {
 			var tree = document.getElementById('editBMPanel_folderTree');
 			if (p) {
@@ -257,6 +282,31 @@ var editBookmarkPlus = {
 		}
 		else {
 			var tree = document.getElementById('editBMPanel_folderTree');
+			if (tree.flex != '1') {
+				tree.flex = '1';
+				tree.style.minHeight = '9.375em'; // Corresponds to 150px for base Size=16pt
+			}
+
+			if (p) {
+				// Skip for bm-props2.xul
+				p.height = '';
+				p.flex = 1;
+			}
+		}
+
+                var tagsSelectorRow = document.getElementById('editBMPanel_tagsSelectorRow');
+		var p =  document.getElementById('editBookmarkPanel');
+
+		if (tagsSelectorRow.collapsed) {
+			var tree = document.getElementById('editBMPanel_tagsSelector');
+			if (p) {
+				// Skip for bm-props2.xul
+				// collapse panel when collapse button is clicked
+				p.height = p.height-tree.height;
+			}
+		}
+		else {
+			var tree = document.getElementById('editBMPanel_tagsSelector');
 			if (tree.flex != '1') {
 				tree.flex = '1';
 				tree.style.minHeight = '9.375em'; // Corresponds to 150px for base Size=16pt
@@ -287,6 +337,18 @@ var editBookmarkPlus = {
 
 		// on first load if tree is in collapsed state, tree.view is null 		
 		if (!tree.hidden && tree.view) {
+			var numRanges = tree.view.selection.getRangeCount();
+			if (numRanges > 0) {
+				var start = new Object();
+				var end = new Object();
+				tree.view.selection.getRangeAt(0,start,end);
+				tree.treeBoxObject.ensureRowIsVisible(start.value);
+			}
+		}
+
+		var tree = document.getElementById('editBMPanel_tagsSelector');
+
+		if (!tree.hidden) {
 			var numRanges = tree.view.selection.getRangeCount();
 			if (numRanges > 0) {
 				var start = new Object();
